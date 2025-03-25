@@ -1,0 +1,105 @@
+:root{
+	--color-aqua:#00d9d9;
+	--color-titulos:#000;
+	--color-contenido: #2d2d2d;
+	--bg-header:#000;
+	--bg-footer:#222222;
+}
+body{
+	color:var(--color-contenido);
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background-color: var(--bg-header);
+	padding: 20px 0;
+}
+
+
+
+
+
+footer{
+	background-color: var(--bg-footer);
+	color: #888;
+	padding: 30px 0;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+}
+footer p span{
+	color: var(--color-aqua);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+.iconos{
+	font-size: 60px;
+	color: #00d9d9;
+	padding-bottom: 50px;
+}
+#servicios{
+	text-align: center;
+	padding: 90px 0px 90px 0px;
+}
+.background-image {
+    background-image: url("../img/img-hospital.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 300px; 
+    color: #fff; 
+    align-items: center;
+    justify-content: center;
+	box-shadow: -10px 10px 0px #00d9d9;
+}
+#aboutus{
+	padding: 100px;
+}
+.interactiontxt {
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-size: 18px;
+	color: #333;
+}
+.doctxt{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.docdesc{
+	color: #4d4d4d;
+}
+.fondogris{
+	background-color: #F9F9F9 ;
+	padding: 100px;
+}
+.fondoabajo {
+	font-size: 15px;
+	max-width: 800px;
+	text-align: center;
+	margin: 0 auto; 
+}
+.comillas{
+	padding: 50px;
+}
+.JOHN{	
+	font-size: 15px;
+
+}
+.carousel-caption {
+	right: 10%; 
+	right: auto;
+	bottom: 30%; 
+	text-align: left;
+}
+.txtcarrusel{
+	font-size: 100px;
+	font-weight: 900;
+}
+.welcome{
+	padding: 24px 0 ;
+	font-size: 24px;
+}
